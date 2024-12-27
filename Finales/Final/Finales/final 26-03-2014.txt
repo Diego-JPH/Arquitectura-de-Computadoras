@@ -1,0 +1,5 @@
+1) Explique los métodos de pasaje de argumentos a procedimientos o funciones. Describa el comportamiento con anidamiento de múltiples procedimientos/funciones.
+2) ¿Cómo es la estructura de un módulo de E/S? Describa las características del controlador de interrpciones PIC.
+3)  Describa los elementos a tener en cuenta en el diseño de una memoria caché. Anilice ventajas y desventajas de poseer varios niveles de caché.
+4)¿Qué es la segmentación del cauce de instrucción? ¿Cuánto mejora el rendimiento? Describa las dependencias de los datos que puedan afectar un cauce segmentado.
+5) ¿Qué características posee un procesador superescalar? 

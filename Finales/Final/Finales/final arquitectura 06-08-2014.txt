@@ -1,0 +1,13 @@
+Final de arquitectura 06-08-2014
+
+1)Explique el mecanismo de interrupción. Describa las distintas fuentes de interrupción que conozca y el tratamiento a realizar cuando hay múltiples interrupciones.
+
+2) ¿Cómo es la estructura interna de un módulo de E/S? Describa las características funcionales del acceso directo a memoria - DMA.
+
+3) Describa las funciones de correspondencia entre memoria principal y cache. Analice las politicas de escritura desde el punto de vista de la coherencia de datos.
+
+4) ¿Qué entiende por segmentación de cauce? ¿Qué ventajas proporciona su implementación?
+
+5) Describa tres (3) diferentes causas o motivos que pueden retardar un cauce de instrucciones segmentado
+
+6) ¿Qué características describen un cluster de computadoras?

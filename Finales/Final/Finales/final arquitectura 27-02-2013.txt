@@ -1,0 +1,28 @@
+﻿Final de Arquitectura 27/02/2013		
+
+
+
+
+
+
+1.- Describir el mecanismo de interrupción. Mencionar cuales son las fuentes de interrupción (tipos de interrupción). Describir el tratamiento de múltiples interrupciones.
+
+
+
+
+2.- ¿Cómo es la estructura de un módulo de E/S? (Diagrama). Decribir la función del DMA.
+
+
+
+
+3.- Mencionar los tipos de correspondencia de la memoria caché. Describir las políticas de escritura (en acierto y en fallo).
+
+
+
+
+4.- ¿Qué es la segmentación de instrucciones? ¿Cómo mejora el rendimiento? Describir tipos de dependencia que afectan el funcionamiento de los cauces.
+
+
+
+
+5.- ¿Qué características posee un procesador superescalar? 

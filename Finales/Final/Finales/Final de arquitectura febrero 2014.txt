@@ -1,0 +1,5 @@
+1) Mecanismo de interrupción. Fuentes de interrupción y tratamiento de interrupciones múltiples.
+2) Estructura interna del módulo de E/S. Características funcionales de DMA.
+3) Funciones de correspondencia entre memoria y memoria cache. Políticas de escritura desde el punto de vista de la coherencia de datos.
+4) Qué es la segmentación de cauce. Tres motivos de retardo de cauce.
+5) Características de los clusters.

@@ -1,0 +1,35 @@
+ ORG 1000h
+POSITIVO DB "+"
+NEGATIVO DB "-"
+RES DB ?
+
+     ORG 1500h
+NUM_1 DB ?
+NUM_2 DB ?
+
+     ORG 2000h
+     MOV AL, 1
+     MOV BX, OFFSET NUM_1
+     INT 6
+     MOV BX, OFFSET NUM_2
+     INT 6
+     MOV CL, NUM_1
+     SUB CL, 30h
+     MOV CH, NUM_2
+     SUB CH, 30h
+     SUB CL, CH
+     MOV RES, CL
+     JS SIG_NEG
+     ADD RES, 30h
+     MOV BX, OFFSET POSITIVO
+     INT 7
+     MOV BX, OFFSET RES
+     INT 7
+     JMP FIN
+SIG_NEG: MOV BX, OFFSET NEGATIVO
+         INT 7
+         MOV BX, OFFSET RES
+         INT 7
+         JMP FIN
+    FIN: HLT
+         END

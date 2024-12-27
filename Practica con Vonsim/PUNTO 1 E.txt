@@ -1,0 +1,52 @@
+PIC EQU 20H
+PA EQU 30H
+PB EQU 31H
+CA EQU 32H
+CB EQU 33H
+CONT EQU 10H
+COMP EQU 11H
+
+ORG 80H
+DIR_SUB DW 3100H
+
+ORG 3100H
+ASCENDENTE: MOV AL, DL
+            OUT PB, AL
+            MOV AL, COMP
+            INC AL
+            OUT COMP, AL
+            ADD DL, DL
+            JC DESCENDENTE
+            JMP ASCENDENTE
+DESCENDENTE: CMP DL, 0
+             JZ ASCENDENTE
+       LAZO: ADD DL, DL
+             DEC CL
+             CMP CL, 0
+             JNZ LAZO
+             MOV AL, DL
+             OUT PB, AL
+             MOV AL, COMP
+             INC AL
+             OUT COMP, AL
+             JMP DESCENDENTE
+
+
+ORG 2000H
+CLI
+MOV AL, 0
+OUT CB, AL
+MOV AL, 1
+OUT COMP, AL
+MOV AL, 0
+OUT CONT, AL
+MOV AL, 0FDH
+OUT PIC+1, AL
+MOV AL, 20
+OUT PIC+5, AL
+MOV CL, 6
+MOV DL, 0
+STI
+LOOP: JMP LOOP
+      HLT
+      END

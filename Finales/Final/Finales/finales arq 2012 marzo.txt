@@ -1,0 +1,21 @@
+FINAL DE ARQUITECTURA 2DO LLAMADO DE MARZO:
+ 
+1. Metodos de Pasaje de argumentos a las funciones/procedimientos. Que sucede cuando tenemos varias subrutinas anidadas?
+2.Estructura de un modulo E/S. Describa el funcionamiento de un controlador DMA(las etapas de transferencia).
+3.Describa que se debe tener en cuenta para diseñar una caché(TODO).
+4.Segmentacion de cauce. Describir atascos por dependencia de datos y su solucion.
+5.PROCESADORES SUPERESCALAR -CARACTERISTICAS.
+Gracias santii :P
+
+
+
+Final arq marzo 1º llamado 2012
+
+1) ¿Qué es un bus? Describa los tipos, arbitraje y tecnicas de sincronizacion. Mencione diferencias entres bus PCI y bus SCSI.
+ 
+2) ¿Como es la estructura de un modulo E/S? Describa las posibles tecnicas que puede ulitizar una CPU para realizar operaciones E/S.
+ 
+3)Describa algoritmos de ubicacion y politica de escritura en caché.
+ 
+4)¿Que es la segmentacion del cause? Describa tipos de dependencias que afectan el funcionamiento de los causes y las posibles soluciones para evitarlos.
+5)Describa las caracteristicas que diferencian a los procesadores RISC respecto de los CISC.

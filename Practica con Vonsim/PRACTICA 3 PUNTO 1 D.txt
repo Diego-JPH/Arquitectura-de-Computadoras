@@ -1,0 +1,23 @@
+PA EQU 30H
+PB EQU 31H
+CA EQU 32H
+CB EQU 33H
+
+ORG 2000H
+CLI
+MOV AL, 0FFH
+OUT CA, AL
+MOV AL, 0
+OUT CB, AL
+STI
+MOV DL, 1
+LOOP: CMP DL, 255
+      JZ FIN
+      MOV AL, DL
+      OUT PA, AL
+      IN AL, PA
+      OUT PB, AL
+      INC DL
+      JMP LOOP
+  FIN:HLT
+      END

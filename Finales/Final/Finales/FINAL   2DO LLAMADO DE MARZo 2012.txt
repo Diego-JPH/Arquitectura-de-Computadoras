@@ -1,0 +1,13 @@
+FINAL DE ARQUITECTURA 2DO LLAMADO DE MARZO:
+
+ 
+
+1. Metodos de Pasaje de argumentos a las funciones/procedimientos. Que sucede cuando tenemos varias subrutinas anidadas?
+
+2.Estructura de un modulo E/S. Describa el funcionamiento de un controlador DMA(las etapas de transferencia).
+
+3.Describa que se debe tener en cuenta para diseñar una caché(TODO).
+
+4.Segmentacion de cauce. Describir atascos por dependencia de datos y su solucion.
+
+5.PROCESADORES SUPERESCALAR -CARACTERISTICAS.

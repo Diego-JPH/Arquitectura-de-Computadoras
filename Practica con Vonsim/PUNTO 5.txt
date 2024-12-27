@@ -1,0 +1,37 @@
+     ORG 1000h
+NO DB "CARACTER NO VALIDO"
+FIN DB ?     
+INDICE DB 30h
+RES DB ?
+
+     ORG 1500h
+CHAR DB ?
+
+     ORG 3000h
+ES_NUM: CMP [BX], DL
+        JZ SI
+        INC DL
+        DEC CL
+        JNZ ES_NUM
+        MOV CH, 00h
+        MOV BX, OFFSET NO
+        MOV AL, OFFSET FIN-OFFSET NO
+        INT 7
+        JMP FIN_R
+    SI: MOV CH, 0FFh
+        JMP FIN_R
+ FIN_R: RET
+ 
+     ORG 2000h
+     MOV BX, OFFSET CHAR
+     INT 6
+     MOV AL, 1
+     INT 7
+     MOV BX, OFFSET CHAR
+     MOV CL,10
+     MOV CH,0
+     MOV DL, INDICE
+     CALL ES_NUM
+     MOV RES, CH
+     HLT
+     END

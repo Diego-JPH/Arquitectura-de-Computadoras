@@ -1,0 +1,60 @@
+final arq plan 2003
+
+1) ¿Qué es un bus? Desarrolle los mecanismo de arbitraje y temporalizado. 
+2) Describa las características que presentan los conjuntos de instrucciones de la arquitectura RISC.
+3) Describa las esctructuras de los módulos de E/S. Desarrolle como es el funcionamiento del DMA y los usos que de el se hacen.
+4) Describa los algoritmos de reemplazo de bloques y políticas de esctrituras en una memoria caché.
+5) Describa las limitaciones existentes al paralelismo a nivel de instrucciones.
+
+
+final arq plan 2003
+1) Explique del mecanismo de interrupción. Describa el tratamiento de múltiples interrupciones.
+2) ¿Qué es una Pila o Stack? Describa su funcionamiento y explique 2 usos típicos.
+3) ¿Cuáles de esas características más comunes de la arquitectura RISC? Nota: el papal dice eso pero supongo que pregunta algo así como cuáles son esas características.
+4) ¿Cómo es la estructura de un módulo E/S? Relación CPU-E/S: describa las posibles técnicas para realizar operaciones de E/S.
+5) Describa los lagoritmos de reemlazo de bloques y las políticas de estritura en una memoria caché.
+6) Mencione las limtiaciones existentes al paralelismo a nivel de instrcciones.
+
+
+final arq 08/03/06 plan 2003
+1)Describa el mecanismo de interrupción. Explique características y tratamiento de interrupciones múltiples.
+2) ¿Qué es segmentación de cauce? ¿Qué ventajas proporciona su imlemtnación?
+3) Describa las características funcionales del Acceso Directa a Memoria (DMA).
+4) Memoria Caché. Describa el mapeo asociativo por conjuntos. Analice las políticas de escritura desde el punto de vista de la coherencia de datos.
+5) ¿Qué son los procesadores supercalares?
+
+
+final arq 28/03/07 plan 2003
+1) ¿Cuál es el propósito de permitir interrupciones al ciclo de instruccón? Describa como funcionan y para qué puede usarse las instrucciones de interrupción por software.
+2) ¿Qué es una pila o stack? Describa el funcionamiento de una pila si hay subrutinas anidad que realicen pasaje de parámetros por referencia.
+3) ¿Cómo es la estructura de un módulo de E/S? Desarrolle el funcionamiento de DMA y los usos que de él se hacen.
+4) ¿Cuál es la justificación por la cual 2 nivel de memoria caché son mejores que uno solo?
+5) ¿Qué características tienen los procesadores superescalares?
+
+
+
+final arq 26/03/09 plan 2003
+1) Explique los métodos de pasaje de argumentos a procedimientos o funciones. Describa el comprotamiento con anidamiento de múltiples procedimiento/funciones.
+2) ¿Cómo es la estructura de un módulo E/S? Describa las características funcionales del Acceso Directo a Memoria (DMA).
+3) Describa los elementos a tener en cuenta en el diseño de una memoria caché. Analice ventajas y desventajas de poseer varios niveles de caché.
+4) ¿Qué es la segmentación de cauces de instrucciones? ¿Cuándo mejora el rendimiento? Describa al menos dos técnicas para disminuir la influencia de los saltos de un cauce segmentado.
+5) ¿Qué características posee un procesador superescalar?
+
+
+03/10  plan 2003
+1) ¿Qué es un bus? Defina los diferentes tipos de arbitraje y sincronización. Mencione las principales diferencias entre un bus PCI y SCSI.
+2) ¿Qué es una interrupción? ¿Cuál es la función de un controlador de interrupciones?
+3) ¿Cómo es la estructura de un modelo de E/S? Describa las posibles técnicas que puede utilizar una CPU para realizar operaciones E/S.
+4) Describa los algoritmos de reemplazo de bloque y políticas de la escritura en la caché.
+5) ¿Qué es la segmentación de cause? Describa tipos de dependencia que afectan el funcionamiento de los causes. 
+6) Describa las características que diferencian loa procesadores RISC respecto a los CISC
+
+
+
+25/03/10 plan 2003
+1) ¿Qué es un bus? Describa tipos, arbitrajes y técnicas de sincronización. Mencione diferencias entre bus PCI y bus SCSI.
+2) ¿Qué es una interrupción?  ¿Cuál es la función del PIC?
+3) Estructura de un módulo de E/S. Describa técnicas que usa la CPU para realizar operciones de E/S.
+4) Describa algortimos de reemplazo de bloque y políticas de escritura en caché.
+5) ¿Qué es la segmentación de cause? Describa tipos de dependencia que afectarían el funcionamiento de causes. ¿Cuánto mejora el redimiento?
+

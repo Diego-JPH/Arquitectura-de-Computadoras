@@ -1,0 +1,12 @@
+﻿1- ¿Qué es una pila? Describir el comportamiento con anidamiento de múltiples procedimientos/funciones utilizando pila.
+
+2- Justifique el uso dos niveles de caché.
+
+3- ¿Cómo funciona un módulo de E/S? 
+
+Describa las características fundamentales de un DMA.
+
+4- ¿Qué es la segmentación de cauce? Explique los atascos producidos por saltos
+.
+
+5- Funcionamiento de un cluster.

@@ -1,0 +1,5 @@
+1) Que es un Bus, tipos de buses, temporizacion y metodos de arbitraje
+2) Como es la estructura de un modulo de E/S.Describa las posibles tecnicas que pueden utilizarse para realizar las operaciones de E/S
+3) Describa las tecnicas de reemplazo de bloque, correspondencia y politicas de escritura en memoria cache.
+4) Que es la segmentacion de cauce. Describa los metodos y tecnicas utilizadas para disminuir o evitar las paradas que afectaran al funcionamiento de los cauces.
+5)Describa las caracteristicas que diferencian los SMP respecto a los clusters

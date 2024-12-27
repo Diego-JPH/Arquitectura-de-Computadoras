@@ -1,0 +1,11 @@
+final arq septiembre 2013
+
+1) Explique el mecanismo de interrupción. Describa las caraterísticas y el funcionamiento de un pic.
+
+2) Describa las características fundamentales de un DMA
+
+3) Describa los diferentes algoritmos de reemplazo de ¿bloques? de una caché. Analice las políticas de escritura desde el punto de vista de la coherencia de datos.
+
+4) ¿Qué ¿se? entienden por segmentación de cauce? ¿Qué ventajas proporciona su implementación?
+
+5) ¿Qué características describen un cluster de computadoras?

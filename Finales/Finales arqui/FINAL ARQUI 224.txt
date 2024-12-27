@@ -1,0 +1,10 @@
+1) a) ¿Que metodo de atencion se lo conoce como "interrupciones vectorizadas"?
+b) ¿Cuando, como, por que y para que se utiliza la interrupcion por software?
+2) a) Esquematice y describa el modulo de E/S
+b) Describa los posibles modos de ubicacion de los modulos de E/S
+3) a) Funcion de correspondencia en memoria cache y principal
+b) Describir las politcas de escritura desde el punto de vista de la coherencia de datos
+4) a) Describa las características de los procesadores superescalares
+b) Causas que puedan retardar el funcionamiento de los procesadores superescalares
+5) a) Describa las características principales de un bus
+5) b) Que es MIMD de la taxonomía de Flynn
